@@ -8,3 +8,6 @@ filetype indent on
 set shiftwidth=4
 set autoindent on
 set smartindent on
+
+set fileformat=unix
+set filwformats=unix,dos
