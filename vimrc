@@ -1,6 +1,7 @@
 set nu
 set encoding=utf-8
-language mes en
+" this one doesn't work on Ubuntu
+" language mes en
 " this sets filetype on as well
 syntax enable
 filetype plugin indent on
