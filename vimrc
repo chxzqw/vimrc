@@ -2,8 +2,8 @@ set nu
 set encoding=utf-8
 " this one doesn't work on Ubuntu
 " language mes en
-" this sets filetype on as well
-syntax enable
+
+syntax enable " this sets filetype on as well
 filetype plugin indent on
 
 set wildmenu
