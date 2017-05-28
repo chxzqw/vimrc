@@ -1,2 +1,6 @@
 
 \.netrwhist
+
+autoload/plug\.vim
+
+plugged/
