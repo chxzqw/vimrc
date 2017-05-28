@@ -3,9 +3,6 @@ set encoding=utf-8
 " this one doesn't work on Ubuntu
 " language mes en
 
-"plugin manager
-execute pathogen#infect() 
-
 syntax enable
 filetype plugin indent on
 
@@ -14,3 +11,9 @@ set wildmode=full
 
 set wildcharm=<C-Z>
 nnoremap <TAB><TAB> :b <C-Z>
+
+"plugin manager
+let $MYVIMHOMEPATH=fnamemodify(expand("$MYVIMRC"), ":p:h")
+call plug#begin($MYVIMHOMEPATH.'/plugged')
+Plug 'nelsyeung/twig.vim'
+call plug#end()
