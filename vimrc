@@ -12,8 +12,8 @@ set wildmode=full
 set wildcharm=<C-Z>
 nnoremap <TAB><TAB> :b <C-Z>
 
-"plugin manager
-let $MYVIMHOMEPATH=fnamemodify(expand("$MYVIMRC"), ":p:h")
-call plug#begin($MYVIMHOMEPATH.'/plugged')
-Plug 'nelsyeung/twig.vim'
-call plug#end()
+" Load vim-plug
+if empty(glob("~/.vim/autoload/plug.vim"))
+    silent execute '!curl --create-dirs -fLso ~/.vim/autoload/plug.vim https://raw.github.com/junegunn/vim-plug/master/plug.vim'
+endif
+source ~/.vim/vim-plug-init.vim
