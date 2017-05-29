@@ -13,7 +13,4 @@ set wildcharm=<C-Z>
 nnoremap <TAB><TAB> :b <C-Z>
 
 " Load vim-plug
-if empty(glob($HOME."/.vim/autoload/plug.vim"))
-    silent execute '!curl --create-dirs -fLso '.$HOME.'/.vim/autoload/plug.vim https://raw.github.com/junegunn/vim-plug/master/plug.vim'
-endif
-source ~/.vim/vim-plug-init.vim
+source ~/.vim/plug-mgr-init.vim
