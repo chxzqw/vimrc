@@ -5,6 +5,7 @@ if empty(glob($HOME."/.vim/autoload/plug.vim"))
 endif
 
 call plug#begin('~/.vim/plugged')
+
 Plug 'nelsyeung/twig.vim', {'for': 'twig'}
 
 call plug#end()
