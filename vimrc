@@ -7,6 +7,7 @@ set encoding=utf-8
 syntax enable
 filetype plugin indent on
 
-source ~/.vim/inc/wildmenu.inc.vim
-source ~/.vim/inc/netrw.inc.vim
 source ~/.vim/inc/vim-plug.inc.vim
+source ~/.vim/inc/wildmenu.inc.vim
+source ~/.vim/inc/resize-split-window.inc.vim
+source ~/.vim/inc/nerdtree.inc.vim

@@ -7,5 +7,6 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'nelsyeung/twig.vim', {'for': 'twig'}
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
