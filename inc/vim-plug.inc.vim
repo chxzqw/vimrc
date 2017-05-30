@@ -8,5 +8,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'nelsyeung/twig.vim', {'for': 'twig'}
 Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
