@@ -1,6 +1,7 @@
 set nu
 set ruler
 set encoding=utf-8
+set laststatus=2
 " this one doesn't work on Ubuntu
 " language mes en
 
