@@ -10,5 +10,7 @@ Plug 'nelsyeung/twig.vim', {'for': 'twig'}
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
+Plug 'vim-scripts/SelectBuf'
+Plug 'vim-scripts/genutils'
 
 call plug#end()

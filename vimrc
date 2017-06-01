@@ -4,7 +4,6 @@ set encoding=utf-8
 set laststatus=2
 set wildmenu
 set wildmode=full
-nnoremap gb :ls<CR>:b<space>
 " this one doesn't work on Ubuntu
 " language mes en
 
