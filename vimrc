@@ -5,6 +5,7 @@ set laststatus=2
 set wildmenu
 set wildmode=full
 set background=dark
+set backspace=indent,eol,start
 nnoremap gb :ls<CR>:b<Space>
 " this one doesn't work on Ubuntu
 " language mes en
