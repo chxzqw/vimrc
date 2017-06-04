@@ -1,0 +1,8 @@
+[user]
+	email = chxzqw@gmail.com
+	name = Sid Chen
+[alias]
+	logs = !git status && git diff --stat && git log --all --decorate --oneline --graph -n 10
+	logl = !git status && git diff --stat && git log --all --decorate --oneline --graph --stat -n 10
+[push]
+	default = simple
