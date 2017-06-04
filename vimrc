@@ -7,8 +7,6 @@ set wildmode=full
 set background=dark
 set backspace=indent,eol,start
 nnoremap gb :ls<CR>:b<Space>
-" this one doesn't work on Ubuntu
-" language mes en
 
 syntax enable
 filetype plugin indent on
