@@ -12,5 +12,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-scripts/SelectBuf'
 Plug 'vim-scripts/genutils'
+Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()
