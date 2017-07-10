@@ -4,6 +4,7 @@ set encoding=utf-8
 set fileformat=unix
 set fileformats=unix,dos
 set shiftwidth=4
+set expandtab
 set laststatus=2
 set wildmenu
 set wildmode=full
