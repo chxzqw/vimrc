@@ -13,6 +13,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-scripts/SelectBuf'
 Plug 'vim-scripts/genutils'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'valloric/youcompleteme'
+Plug 'ervandew/supertab'
+Plug 'tpope/vim-surround'
 
 call plug#end()
