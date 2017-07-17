@@ -15,5 +15,16 @@ Plug 'vim-scripts/genutils'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
 Plug 'tpope/vim-surround'
+Plug 'MattesGroeger/vim-bookmarks'
+Plug 'easymotion/vim-easymotion'
+Plug 'mattn/emmet-vim'
+Plug 'vim-syntastic/syntastic'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'vim-ctrlspace/vim-ctrlspace'
+Plug 'mhinz/vim-startify'
+"The following two are dependencies of snipmate
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
 
 call plug#end()

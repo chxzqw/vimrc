@@ -10,6 +10,8 @@ set wildmenu
 set wildmode=full
 set background=dark
 set backspace=indent,eol,start
+"hidden is required by ctrlspace
+set hidden
 nnoremap gb :ls<CR>:b<Space>
 
 syntax enable
