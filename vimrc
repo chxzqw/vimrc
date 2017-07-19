@@ -10,8 +10,8 @@ set wildmenu
 set wildmode=full
 set background=dark
 set backspace=indent,eol,start
-"hidden is required by ctrlspace
-set hidden
+set hidden "hidden is required by ctrlspace
+let g:vim_markdown_folding_disabled = 1
 nnoremap gb :ls<CR>:b<Space>
 
 syntax enable
