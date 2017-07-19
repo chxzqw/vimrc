@@ -32,4 +32,6 @@ Plug 'tomtom/tcomment_vim'
 Plug 'godlygeek/tabular' "vim-markdown dependencies
 Plug 'plasticboy/vim-markdown'
 
+Plug 'gregsexton/MatchTag'
+
 call plug#end()
