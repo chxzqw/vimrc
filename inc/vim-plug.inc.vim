@@ -22,10 +22,14 @@ Plug 'vim-syntastic/syntastic'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'mhinz/vim-startify'
-"The following two are dependencies of snipmate
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'tomtom/tlib_vim'
+
+Plug 'MarcWeber/vim-addon-mw-utils' "snipmate dependencies
+Plug 'tomtom/tlib_vim' "snipmate dependencies
 Plug 'garbas/vim-snipmate'
+
 Plug 'tomtom/tcomment_vim'
+
+Plug 'godlygeek/tabular' "vim-markdown dependencies
+Plug 'plasticboy/vim-markdown'
 
 call plug#end()
