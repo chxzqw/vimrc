@@ -10,8 +10,6 @@ set wildmenu
 set wildmode=full
 set background=dark
 set backspace=indent,eol,start
-set hidden "hidden is required by ctrlspace
-let g:vim_markdown_folding_disabled = 1
 nnoremap gb :ls<CR>:b<Space>
 
 syntax enable
@@ -21,3 +19,5 @@ source ~/.vim/inc/vim-plug.inc.vim
 source ~/.vim/inc/resize-split-window.inc.vim
 source ~/.vim/inc/nerdtree.inc.vim
 source ~/.vim/inc/selectbuf.inc.vim
+source ~/.vim/inc/ctrlspace.inc.vim
+source ~/.vim/inc/vim-markdown.inc.vim
