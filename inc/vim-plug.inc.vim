@@ -29,11 +29,8 @@ Plug 'tomtom/tcomment_vim'
 Plug 'godlygeek/tabular' "vim-markdown dependencies
 Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
 Plug 'gregsexton/MatchTag'
-<<<<<<< HEAD
-Plug 'elzr/vim-json'
-=======
 Plug 'pangloss/vim-javascript', {'for': 'javascript'}
 Plug 'pgilad/vim-skeletons'
->>>>>>> 490b25cc6506a03a86a89c113886c24789ff6576
+Plug 'elzr/vim-json'
 
 call plug#end()
