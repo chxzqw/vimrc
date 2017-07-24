@@ -33,5 +33,6 @@ Plug 'godlygeek/tabular' "vim-markdown dependencies
 Plug 'plasticboy/vim-markdown'
 
 Plug 'gregsexton/MatchTag'
+Plug 'elzr/vim-json'
 
 call plug#end()
