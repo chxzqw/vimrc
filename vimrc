@@ -12,7 +12,11 @@ set background=dark
 set backspace=indent,eol,start
 nnoremap gb :ls<CR>:b<Space>
 
-syntax enable
+if !exists("g:syntax_on")
+    syntax enable
+endif
+set smartindent
+set autoindent
 filetype plugin indent on
 
 source ~/.vim/inc/vim-plug.inc.vim
