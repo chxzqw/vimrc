@@ -10,6 +10,7 @@ set wildmenu
 set wildmode=full
 set background=dark
 set backspace=indent,eol,start
+set mouse=a
 nnoremap gb :ls<CR>:b<Space>
 
 if !exists("g:syntax_on")
